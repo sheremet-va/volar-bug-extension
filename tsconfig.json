@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "ESNext",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "removeComments": true,
+    "noEmit": true,
+    "importHelpers": true,
+    "strict": true,
+    "moduleResolution": "bundler",
+    "verbatimModuleSyntax": true,
+    "allowImportingTsExtensions": true,
+    "resolvePackageJsonImports": true,
+    "resolvePackageJsonExports": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "lib": ["DOM", "WebWorker", "dom.iterable"],
+    "types": ["node"],
+    "paths": {
+      "#mobile/*": ["src/mobile/*"]
+    },
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"]
+}
